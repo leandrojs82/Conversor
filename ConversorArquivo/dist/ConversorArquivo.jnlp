@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ConversorArquivo.jnlp">
+  <information>
+    <title>ConversorArquivo</title>
+    <vendor>caio.mota</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ConversorArquivo.jar" size="161162" download="eager" />
+    <jar href="lib/AbsoluteLayout-SNAPSHOT.jar" size="2903" download="eager" />
+    <jar href="lib/annotations-2.0.1.jar" size="74557" download="eager" />
+    <jar href="lib/commons-codec-1.10.jar" size="284184" download="eager" />
+    <jar href="lib/commons-collections4-4.1.jar" size="751238" download="eager" />
+    <jar href="lib/commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib/fontbox-2.0.9.jar" size="1554777" download="eager" />
+    <jar href="lib/guava-15.0.jar" size="2172168" download="eager" />
+    <jar href="lib/javassist-3.19.0-GA.jar" size="749499" download="eager" />
+    <jar href="lib/pdfbox-2.0.9.jar" size="2513383" download="eager" />
+    <jar href="lib/poi-3.17.jar" size="2701171" download="eager" />
+    <jar href="lib/poi-ooxml-3.17.jar" size="1479023" download="eager" />
+    <jar href="lib/poi-ooxml-schemas-3.17.jar" size="5924600" download="eager" />
+    <jar href="lib/reflections-0.9.10.jar" size="129763" download="eager" />
+    <jar href="lib/xmlbeans-2.6.0.jar" size="2730866" download="eager" />
+  </resources>
+  <application-desc main-class="universal.Main"  name="ConversorArquivo" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
